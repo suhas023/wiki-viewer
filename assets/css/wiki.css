@@ -1,0 +1,160 @@
+html,body{
+	min-height: 100%;
+	margin:0px;
+	padding: 0px;
+	background-color: #222f3e;
+}
+
+
+.center {
+	height:100%;
+	margin: 0 auto;
+	text-align: center;
+	width: 360px; 
+	padding: 0px;
+	transition: all 0.5s;
+}
+
+#name {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 70px;
+	color: #ee5253;
+	letter-spacing: 2px;
+	width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	margin-top: 10%; 
+	margin-bottom:5%;
+	text-align: center;
+}
+
+input {
+	background-color: #c8d6e5;
+	border:none;
+	padding:0px 50px 0px 20px;
+	margin:0px;
+	height: 35px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: rgb(81, 60, 137);
+	border-radius: 20px;
+	cursor: default;
+	outline: none;
+}
+
+input:focus, input:hover {
+	border:none;
+	outline: none;
+	background-color: #eaedef;
+}
+
+
+button {
+	height: 25px;
+	padding: 0px;
+	box-sizing: border-box;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+#search {
+	margin-left: -40px;
+	margin-right: 0px;
+	width: 30px;
+	box-sizing: border-box;
+	padding: 0px;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 1%;
+	
+}
+
+article {
+	  flex: 1 1 350px;
+	  margin: 10px;
+	  background-color: #c8d6e5;
+	  cursor: default;
+	  font-family: 'Muli', sans-serif;	  
+}
+
+article:first-child {
+	flex: 2 350px;
+}
+
+article:hover {
+	box-shadow: -5px 0px 0px 0px #ee5253 ;
+}
+
+
+article p {
+	padding:15px;
+	color: #222f3e;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+a {
+	color: #ee5253;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#random a{
+	color: #ee5253;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 0px;
+}
+
+.fa-search {
+	color: #ee5253;
+	font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+	.center, #name {
+		width: 300px;
+	}
+	#name {
+		font-size: 50px;
+		margin: 70px auto 70px auto;
+	}
+	input {
+		width: 260px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.center, #name {
+		width: 300px;
+	}
+	#name {
+		font-size: 50px;
+		margin: 70px auto 70px auto;
+	}
+	input {
+		width: 260px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.center, #name {
+		width: 260px;
+	}
+	#name {
+		font-size: 45px;
+		margin: 70px auto 70px auto;
+	}
+	input {
+		width: 200px;
+	}
+}

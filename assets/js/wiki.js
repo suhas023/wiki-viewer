@@ -5,7 +5,7 @@ $("form").submit(getWiki);
 
 function getWiki (event)
 {
-	var wikiUrl = "http://en.wikipedia.org/w/api.php";
+	var wikiUrl = "https://en.wikipedia.org/w/api.php";
 	var query = $("input").val();
 	var $container = $("section");
 	console.log(query);
